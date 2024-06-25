@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloco de notas</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Minhas Notas 📝</h1>
+    </header>
+
+    <section class="add-note">
+        <article class="add_note_article">
+            <input type="text" class="add_note_title" placeholder="Título da Nota" autocomplete="none">
+            <textarea placeholder="Escreva Aqui" autocomplete="none" class="add_note_text"></textarea>
+            <button class="add_note_btn">Adicionar Nota</button>
+            <button class="delete_all">Excluir Tudo</button>
+        </article>
+    </section>
+
+    <section class="notes"></section>
+    <script src="script.js"></script>
+</body>
+</html>
